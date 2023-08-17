@@ -4,19 +4,71 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Odin Recipes</title>
+    <style>
+      h1,
+      h2 {
+        color: green;
+        text-align: center;
+      }
+
+      #title {
+        padding-bottom: 100px;
+      }
+
+      #favorite_meals_title {
+        padding-bottom: 30px;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+      }
+
+      li {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      img {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+    </style>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
+    <h1 id="title">Odin Recipes</h1>
     <div>
-      <h2>Favorite Meals</h2>
+      <h2 id="favorite_meals_title">Favorite Meals</h2>
       <ul>
         <li>
+          <img
+            src="https://www.acouplecooks.com/wp-content/uploads/2019/09/Healthy-Pizza-011.jpg"
+            alt="Image of a healthy looking pizza"
+          />
           <a href="recipes/pizza_recipe.html">Healthy Pizza</a>
         </li>
         <li>
+          <img
+            src="https://img-global.cpcdn.com/recipes/5ce33e07c4594c3e/1200x630cq70/photo.jpg"
+            alt="Image of a bowl of lime cooked tuna fish mixed in with vegetables and coconut milk"
+          />
           <a href="recipes/poisson_cru_recipe.html">Tahitian Poisson Cru</a>
         </li>
         <li>
+          <img
+            src="https://veganbowls.com/cdn/shop/articles/potato_chickpea_quinoa_bowl_1024x.jpg?v=1649216030"
+            alt="Image of a quinoa bowl with roasted chick peas and an asortment of colorful vegetables"
+          />
           <a href="recipes/quinoa_bowl_recipe.html">Roasted Quinoa Bowl</a>
         </li>
       </ul>
